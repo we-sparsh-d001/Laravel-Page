@@ -371,12 +371,12 @@
 
   <!--14+ years of experience  -->
   <div class="bg-zinc-200 z-10 relative  shrink-0">
-    <div class=" text-gray-500 lg:px-24 px-3 max-w-screen-xl mx-auto lg:flex gap-3  lg:py-20 py-10 ">
-      <div class="bg-gray-500 lg:w-[40%] rounded-[1rem] mb-5 h-40">
+    <div class=" text-gray-500 lg:px-24  px-3 max-w-screen-xl mx-auto lg:flex gap-3  lg:py-20 py-10 ">
+      <div class="bg-gray-500 lg:w-[40%]  rounded-[1rem] lg:mb-0 mb-5 h-40">
       </div>
-      <div class="md:flex lg:w-[60%]  justify-between ">
-        <div class="flex flex-col h-full justify-between md:text-base text-sm">
-          <div class="flex items-center lg:mb-0 md:mb-0 mb-1 gap-2">
+      <div class="md:flex lg:w-[60%] justify-between ">
+        <div class="flex flex-col  justify-between md:text-base text-sm">
+          <div class="flex items-center  lg:mb-0 md:mb-0 mb-1  gap-2">
            <span><svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 15 15">
 	<rect width="15" height="15" fill="none"/>
 	<path fill="none" stroke="#6b7280" d="M4 7.5L7 10l4-5m-3.5 9.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z"/>
@@ -386,7 +386,7 @@
               <span class="font-light">Years of Laravel experience</span>
             </p>
           </div>
-          <div class="flex items-center lg:mb-0 md:mb-0 mb-1 gap-2">
+          <div class="flex items-center lg:mb-0  md:mb-0 mb-1 gap-2">
            <span><svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 15 15">
 	<rect width="15" height="15" fill="none"/>
 	<path fill="none" stroke="#6b7280" d="M4 7.5L7 10l4-5m-3.5 9.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z"/>
@@ -445,7 +445,7 @@
   </div>
 
   <!--Our Open Source Products  -->
-  <div class="flex justify-center items-center overflow-hidden  -mt-20 ">
+  <div class="flex justify-center items-center overflow-hidden  -mt-20 md:-mt-60 ">
     <div>
       <div class="lg:w-[2000px] lg:h-[2000px] md:w-[1269px] md:h-[1269px] w-[600px] h-[600px]  flex justify-center   items-center rounded-full border-2">
         <div class="lg:w-[1569px] lg:h-[1569px] md:w-[991px] md:h-[991px] w-[450px] h-[450px] flex justify-center  items-center  rounded-full border-2">
@@ -490,12 +490,130 @@
   <!--What our clients say about us!  -->
   <div class="   pb-16  bg-white z-10 relative lg:-mt-[900px] md:-mt-[570px] -mt-[200px]   ">
     <div class="lg:px-24 px-3 max-w-screen-xl mx-auto ">
-    <div class="lg:text-5xl md:text-3xl text-xl pt-20 font-bold text-gray-500  text-center mb-16">
+    <div class="lg:text-5xl md:text-3xl text-xl  pt-20 font-bold text-gray-500  text-center mb-16">
       <p>What our clients say about us!</p>
     </div>
-    <div>
-      <img src="public/Frame 55.png"/>
-    </div>
+      <div id="animation-carousel" class="relative w-full   " data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-60 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-200 ease-linear " data-carousel-item>
+            <div class="md:flex relative items-center">
+              <div class="md:w-1/3  flex flex-col items-center">
+                <img src="public/Component 4.png" class="md:w-[311px] w-[100px] h-[100px] md:h-[325px]"/>
+                <p class="lg:text-2xl font-bold font-mono text-gray-500">Jeff Crystal</p>
+                <p class="text-gray-500 lg:text-xl">CEO Voltaic Systems, USA </p>
+              </div>
+              <div class="md:w-2/3">
+                <span class="absolute lg:block hidden top-4 left-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+                <p class="md:text-2xl max-sm:text-center text-xs font-light text-gray-500 italic ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis condimentum justo. Duis vel tempus augue. Integer vulputate venenatis diam. Nam ut tempus justo. Phasellus pharetra, risus et dapibus luctus, risus eros gravida risus, at pretium massa sem eget lacus. </p>
+                <span class=" lg:block hidden absolute bottom-10 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48m-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <div class="md:flex relative items-center">
+              <div class="md:w-1/3  flex flex-col items-center">
+                <img src="public/Component 4.png" class="md:w-[311px] w-[100px] h-[100px] md:h-[325px]"/>
+                <p class="lg:text-2xl font-bold font-mono text-gray-500">Jeff Crystal</p>
+                <p class="text-gray-500 lg:text-xl">CEO Voltaic Systems, USA </p>
+              </div>
+              <div class="md:w-2/3">
+                <span class="absolute lg:block hidden top-4 left-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+                <p class="md:text-2xl max-sm:text-center text-xs font-light text-gray-500 italic ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis condimentum justo. Duis vel tempus augue. Integer vulputate venenatis diam. Nam ut tempus justo. Phasellus pharetra, risus et dapibus luctus, risus eros gravida risus, at pretium massa sem eget lacus. </p>
+                <span class=" lg:block hidden absolute bottom-10 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48m-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-200 ease-linear " data-carousel-item="active">
+            <div class="md:flex relative items-center">
+              <div class="md:w-1/3  flex flex-col items-center">
+                <img src="public/Component 4.png" class="md:w-[311px] w-[100px] h-[100px] md:h-[325px]"/>
+                <p class="lg:text-2xl font-bold font-mono text-gray-500">Jeff Crystal</p>
+                <p class="text-gray-500 lg:text-xl">CEO Voltaic Systems, USA </p>
+              </div>
+              <div class="md:w-2/3">
+                <span class="absolute lg:block hidden top-4 left-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+                <p class="md:text-2xl max-sm:text-center text-xs font-light text-gray-500 italic ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis condimentum justo. Duis vel tempus augue. Integer vulputate venenatis diam. Nam ut tempus justo. Phasellus pharetra, risus et dapibus luctus, risus eros gravida risus, at pretium massa sem eget lacus. </p>
+                <span class=" lg:block hidden absolute bottom-10 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48m-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <div class="md:flex relative items-center">
+              <div class="md:w-1/3  flex flex-col items-center">
+                <img src="public/Component 4.png" class="md:w-[311px] w-[100px] h-[100px] md:h-[325px]"/>
+                <p class="lg:text-2xl font-bold font-mono text-gray-500">Jeff Crystal</p>
+                <p class="text-gray-500 lg:text-xl">CEO Voltaic Systems, USA </p>
+              </div>
+              <div class="md:w-2/3">
+                <span class="absolute lg:block hidden top-4 left-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+                <p class="md:text-2xl max-sm:text-center text-xs font-light text-gray-500 italic ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis condimentum justo. Duis vel tempus augue. Integer vulputate venenatis diam. Nam ut tempus justo. Phasellus pharetra, risus et dapibus luctus, risus eros gravida risus, at pretium massa sem eget lacus. </p>
+                <span class=" lg:block hidden absolute bottom-10 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48m-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <div class="md:flex relative items-center">
+              <div class="md:w-1/3  flex flex-col items-center">
+                <img src="public/Component 4.png" class="md:w-[311px] w-[100px] h-[100px] md:h-[325px]"/>
+                <p class="lg:text-2xl font-bold font-mono text-gray-500">Jeff Crystal</p>
+                <p class="text-gray-500 lg:text-xl">CEO Voltaic Systems, USA </p>
+              </div>
+              <div class="md:w-2/3">
+                <span class="absolute lg:block hidden top-4 left-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48m-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+                <p class="md:text-2xl max-sm:text-center text-xs font-light text-gray-500 italic ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis condimentum justo. Duis vel tempus augue. Integer vulputate venenatis diam. Nam ut tempus justo. Phasellus pharetra, risus et dapibus luctus, risus eros gravida risus, at pretium massa sem eget lacus. </p>
+                <span class=" lg:block hidden absolute bottom-10 right-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 512 512"><path fill="#9f9f9f" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48m-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48"/></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slider controls -->
+        <div class=" flex justify-center  max-sm:mt-4 gap-4">
+
+          <button class=" border border-gray-600 hover:bg-gray-100 hover:border-none rounded-xl rotate-180 text-white  md:px-3 md:py-3 px-3 py-1" data-carousel-prev>
+              <span class="">
+         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+         <rect width="24" height="24" fill="none"/>
+         <path fill="grey" d="M4 11v2h12v2h2v-2h2v-2h-2V9h-2v2zm10-4h2v2h-2zm0 0h-2V5h2zm0 10h2v-2h-2zm0 0h-2v2h2z"/>
+       </svg>
+         </span>
+          </button>
+          <button class="border border-gray-600 hover:bg-gray-100 hover:border-none  rounded-xl text-white  md:px-3 md:py-3 px-3 py-1 " data-carousel-next>
+            <span>
+         <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+         <rect width="24" height="24" fill="none"/>
+         <path fill="grey" d="M4 11v2h12v2h2v-2h2v-2h-2V9h-2v2zm10-4h2v2h-2zm0 0h-2V5h2zm0 10h2v-2h-2zm0 0h-2v2h2z"/>
+       </svg>
+         </span>
+
+          </button>
+          </div>
+      </div>
       </div>
   </div>
 
@@ -1033,14 +1151,14 @@
         </div>
       </div>
       <h2 id="accordion-flush-heading-4">
-        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-3">
           <span>Q. How long does it take to build a Laravel application? </span>
           <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
           <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
@@ -1052,14 +1170,14 @@
         </div>
       </div>
       <h2 id="accordion-flush-heading-5">
-        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-3">
           <span>Q. How long does it take to build a Laravel application? </span>
           <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
           <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
@@ -1071,14 +1189,14 @@
         </div>
       </div>
       <h2 id="accordion-flush-heading-6">
-        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <button type="button" class="flex items-center justify-between w-full py-5  rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3" data-accordion-target="#accordion-flush-body-6" aria-expanded="false" aria-controls="accordion-flush-body-6">
           <span>Q. How long does it take to build a Laravel application? </span>
           <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
           </svg>
         </button>
       </h2>
-      <div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-6">
         <div class="py-5 border-b border-gray-200 dark:border-gray-700">
           <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
           <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
